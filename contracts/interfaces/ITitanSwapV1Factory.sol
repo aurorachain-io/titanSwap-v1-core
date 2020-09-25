@@ -1,4 +1,4 @@
-pragma solidity =0.6.6;
+pragma solidity >=0.4.25 <0.7.0;
 
 interface ITitanSwapV1Factory {
     event PairCreated(address indexed token0, address indexed token1, address pair, uint);

@@ -1,4 +1,4 @@
-pragma solidity =0.6.6;
+pragma solidity >=0.4.25 <0.7.0;
 
 interface ITitanSwapV1Pair {
     event Approval(address indexed owner, address indexed spender, uint value);
